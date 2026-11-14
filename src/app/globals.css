@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #eedcd0;
+}
+
+body {
+  background-color: #eedcd0;
+  color: #302d2c;
+  font-family: 'Inter Tight', sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(232, 63, 32, 0.2);
+  color: #302d2c;
+}
